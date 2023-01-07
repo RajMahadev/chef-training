@@ -1,0 +1,19 @@
+$ hostname
+server1
+$ hostname --fqdn
+server1 
+At this point both, the hostname and FQDN is set to server1.
+
+Optionally, change your hostname before proceeding to the next step.
+
+As an example now we will define hostname server1 as retrieved in the previous step to be an alias for the fully qualified domain name www.linuxconfig.org on the IP address 1.2.3.4. To do so edit the /etc/hosts file by using the sudoedit /etc/hosts command and add the following line:
+1.2.3.4 www.linuxconfig.org server1
+NOTE
+The order is important! The FQDN www.linuxconfig.orgmust precede the hostname server1.
+
+All done and no reboot required. Check your FQDN by using the hostname command:
+
+$ hostname --fqdn
+
+www.linuxconfig.org
+
