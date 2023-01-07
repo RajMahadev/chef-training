@@ -17,3 +17,9 @@ $ hostname --fqdn
 
 www.linuxconfig.org
 
+sudo ./chef-automate init-config
+
+
+sudo ./chef-automate deploy --product automate --product infra-server
+
+
