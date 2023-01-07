@@ -38,3 +38,5 @@ sudo apt update
 sudo apt install ruby-full
 
 
+chef generate repo chef-repo
+
