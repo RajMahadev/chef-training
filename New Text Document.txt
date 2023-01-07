@@ -22,4 +22,19 @@ sudo ./chef-automate init-config
 
 sudo ./chef-automate deploy --product automate --product infra-server
 
+https://packages.chef.io/files/stable/chef-workstation/22.10.1013/ubuntu/20.04/chef-workstation_22.10.1013-1_amd64.deb
+
+Install Ruby via Ubuntu Repository
+Using the built-in apt package manager offers the fastest and easiest way to install Ruby on Ubuntu:
+
+Note: Learn more about using the apt package manager and the difference between apt and apt-get.
+
+1. Update the system repositories with:
+
+sudo apt update
+
+2. Use the following command to install Ruby:
+
+sudo apt install ruby-full
+
 
