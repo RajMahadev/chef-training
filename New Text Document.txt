@@ -41,6 +41,6 @@ sudo apt install ruby-full
 chef generate repo chef-repo
 
 
-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 -- token
+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 -- token
 
 chef generate cookbook  cookbooks/install_apache
